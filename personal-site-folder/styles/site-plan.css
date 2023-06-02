@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Open+Sans&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body p{
+    font-family: 'Open Sans';
+}
+.content {
+    max-width: 1600px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #3A3E3B;
+}
+
+
+header h1, h2 {
+    padding: 5px;
+    color: white;
+    padding-bottom: 10px;
+    font-size: 2.5em;
+    font-family: Roboto;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3A3E3B;
+    background-color: #F0EFF4;
+    padding: 7px;
+    margin: 20px;
+    border: 2px solid #3A3E3B ;
+    border-radius: 5px;
+    font-size: 1.5em;
+    font-weight: bold ;
+}
+
+nav a:hover {
+    background-color:#3A3E3B ;
+    border: 2px solid white;
+    color: white;
+    padding: 15px;
+}
+
+main h3 {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 2em;
+    font-family: Roboto;
+}
+
+p {
+    font-size: 30px;
+    line-height: 1.5em;
+}
+
+h4 {
+    text-align: center;
+    margin: 30px;
+    font-size: 2em;
+    text-decoration: underline;
+    font-family: Roboto;
+
+}
+
+main a {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+}
+
+.table a {
+    font-size: 22px;
+    color: #F0EFF4;
+    padding: 10px;
+}
+
+.logo-container {
+    margin: 100px;
+    text-align: center;
+}
+
+.logo {
+    border-radius: 50%;
+    border: 5px solid #3A3E3B;
+}
+
+.logo:hover {
+    border: 20px solid #3A3E3B;
+    padding: 20px;
+}
+
+.table {
+    font-size: 2em;
+    background-color: #3A3E3B;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+th {
+    border: 1px solid black;
+    background-color: #F0EFF4;
+    width:400px ;
+    margin: 0 auto;
+
+}
+
+
+ td{
+    border: 1px solid black;
+    padding: 10px;
+    color: #F0EFF4;
+}
+
+.a {
+    background-color: #000000;
+    color: #F0EFF4;
+}
+
+.b {
+    background-color:#AFBCD4 ;
+    color: #F0EFF4;
+}
+
+.c {
+    background-color:#3A3E3B ;
+    color: #F0EFF4;
+}
+
+.d {
+    background-color: 	#F0EFF4;
+    color: #000000;
+}
+
+.e {
+    background-color:#634047 ;
+    color: #F0EFF4;
+}
+
+.para {
+    background-color: #3A3E3B;
+    padding: 20px;
+    border-radius:10px ;
+    margin: 100px 0;
+}
+
+.para p {
+    color: #F0EFF4;
+}
+
+.para h3 {
+    color: #F0EFF4;
+}
+
+.a, .b, .c, .d, .e {
+    font-weight: bold;
+}
+
+.wireframe {
+    width: 100%;
+    text-align: center;
+
+}
