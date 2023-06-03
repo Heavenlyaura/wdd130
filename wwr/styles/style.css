@@ -8,6 +8,11 @@ nav a {
     padding: 35px;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
 h4 {
     color: #362417;
     text-align: center;
@@ -36,6 +41,8 @@ body {
 }
 
 header {
+    display: grid;
+    grid-template-columns: 150px auto;
     background-color: #362417;
 }
 
@@ -89,6 +96,17 @@ footer p a:hover {
 .icon {
     width: 80px;
 }
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+
 
 #hero-img {
     width: 100%;
@@ -150,6 +168,8 @@ footer p a:hover {
 
 #logo_link {
     padding-top: 5px;
+    justify-self: center;
+    align-self: cent;
 }
 
 .icon {
