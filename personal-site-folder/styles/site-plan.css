@@ -73,9 +73,13 @@ Fonts are separated by a | */
 .img0 {
   grid-column: 2/3;
   width: 400px;
-
-
 } 
+
+/* text allignment */
+
+.projects, .contact-me, .home-page {
+  text-align: start;
+}
 
 .img5, .img6, .img7, .img8 {
   height: 200px;
