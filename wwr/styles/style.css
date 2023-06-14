@@ -423,7 +423,7 @@ footer p a:hover {
         display: block;
         width: 100%;
         margin: 50px auto;
-        float: inline-end;
+        /* float: inline-end; */
         border: none;
     }
 
@@ -439,13 +439,8 @@ footer p a:hover {
     .card {
         display: block;
         height: auto;
-    }
-
-    .card img {
-        width: 300px;
-        margin: 50px 60px;
         text-align: center;
-        justify-self: center;
+        justify-items: center;
     }
 
     .card p {
@@ -454,8 +449,11 @@ footer p a:hover {
     }
 
     .card-img1, .card-img2, .card-img3  {
-        width: 60%;
         margin: 50px auto;
+    }
+
+    .card img {
+        width: 300px;
     }
 
     .faq{
