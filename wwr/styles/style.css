@@ -414,6 +414,11 @@ footer p a:hover {
 
     /* css for page 2 */
 
+
+    .blog-p1, .blog-p2 {
+        text-align: center;
+    }
+
     .river-img1, .river-img2 {
         display: block;
         width: 100%;
@@ -424,11 +429,28 @@ footer p a:hover {
 
     .river-section img {
         border: 10px solid #d9c2a3;
+        width: 300px;
+    }
+
+    .river-section {
+        margin-bottom: 0;
     }
 
     .card {
         display: block;
         height: auto;
+    }
+
+    .card img {
+        width: 300px;
+        margin: 50px 60px;
+        text-align: center;
+        justify-self: center;
+    }
+
+    .card p {
+        justify-self: center;
+        text-align: center;
     }
 
     .card-img1, .card-img2, .card-img3  {
@@ -444,6 +466,13 @@ footer p a:hover {
         margin: 50px auto;
     }
 
+    .faq p {
+        text-align: center;
+    }
+
+    .signout p {
+        text-align: center;
+    }
 
 
 }
