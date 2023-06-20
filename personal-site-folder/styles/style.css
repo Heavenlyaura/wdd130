@@ -339,23 +339,35 @@ footer img {
         flex-direction: column;
     }
 
+    /* nav a {
+        color: var(--accent1-color);
+        font-size: 1em;
+        background-color: inherit;
+        transition: none;
+    } */
+
     nav a {
         color: var(--accent1-color);
-        padding: 20px;
-        font-size: 1em;
-        width: 50%;
-        background-color: inherit;
+        padding: 0 70px;
+        text-decoration: none;
+        font-size: 19px;
+        transition: none;
+        margin: 0 20px;
+        font-weight: bold;
     }
 
     nav a:hover {
-        background-color: var(--accent1-color);
-        color: var(--accent2-color);
+        background-color: inherit;
+        color: inherit;
+        padding: inherit;
+        margin: inherit;
+        font-weight: inherit;
     }
 
     /* logo section */
     .logo-div p {
         color: var(--accent1-color);
-        font-size: 1em ;
+        font-size: 1em;
         margin-top: -15px ;
         text-align: center;
     }
