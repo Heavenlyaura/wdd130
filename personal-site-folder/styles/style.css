@@ -9,7 +9,7 @@
     --accent2-color: #F0EFF4;
   
     /* change the values below to your chosen font(s) */
-    --heading-font: DynaPuff;
+    --heading-font: DynaPuff ;
     --paragraph-font: 'Open Sans', Hevtica, sans-serif;
   
     /* these colors below should be chosen from among your palette colors above */
@@ -138,22 +138,11 @@ nav a:hover {
 .hero p {
     margin-top: -70px;
     color: var(--accent2-color);
-    align-self: top;
     grid-column: 1/4;
     grid-row: 2/3;
     z-index: 1;
     font-size: 2em;
     text-align: center;
-}
-
-
-
-
-.tech-tips {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    margin-bottom: 50px;
 }
 
 /* main section */
@@ -166,7 +155,7 @@ nav a:hover {
     margin-bottom: 40px;
 }
 
-.main-section p {
+.main-section li {
     margin-left: 20px;
 }
 
@@ -239,6 +228,13 @@ nav a:hover {
 }
 
 /* tech tips */
+.tech-tips {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-bottom: 50px;
+}
+
 .tech-tips h3 {
     margin: 20px auto;
     text-decoration: underline;
@@ -253,6 +249,7 @@ nav a:hover {
 .portion2 {
     grid-column:2/3;
     width: 90%;
+    margin-left: 20px;
 }
 
 .tech-tips h3 {
@@ -283,6 +280,54 @@ footer img {
 }
 
 /* media querie */
+
+
+
+@media screen and (max-width: 1200px) {
+
+    .hero h3 {
+        font-size: 2.5em;
+    }
+
+    .hero p {
+        font-size: 1.7em;
+    }
+
+
+    .card-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        /* justify-items: center; */
+    }
+
+    .card1 {
+        grid-column: 1/2;
+        justify-self:end ;
+    }
+
+    .card2 {
+        grid-column: 2/3;
+        justify-self: start;
+    }
+
+
+    .card3 {
+        grid-row: 2/3;
+        grid-column: 1/2;
+        justify-self: end;
+    }
+
+    .card4 {
+        grid-row: 2/3;
+        grid-column: 2/3;
+        justify-self: start;
+    }
+
+
+}
+
+
 @media screen and (max-width: 800px) {
 
     /* nav and header section */
@@ -335,7 +380,7 @@ footer img {
     }
 
     .hero h3 {
-        font-size: 1.5em;
+        font-size: 1em;
         color: var(--accent1-color);
         margin-top: 30px;
     }
@@ -353,14 +398,18 @@ footer img {
         width: 100%;
         text-align: center;
         margin: 0 auto;
-        
     }
 
     .main-section img {
         float: none;
         width: 50%;
-        margin: 0 auto;
+        margin: 0 0 30px auto;
     }
+
+    .main-section h3 {
+        font-size: 1em;
+    }
+        
 
     /* card section */
     .card-img {
@@ -395,4 +444,29 @@ footer img {
         width: 25px;
     }
 
-}   
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+    header {
+        display: grid;
+        grid-template-columns: 120px 1fr;
+    }
+
+    .logo-div {
+        margin: 5px 0;
+    }
+
+    .logo-div p {
+        font-size: .8em;
+    }
+
+    nav a {
+        font-size: .9em;
+        padding: 0;
+        margin: 0 10px;
+    }
+
+}  
