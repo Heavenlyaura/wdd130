@@ -12,17 +12,7 @@
     --heading-font: DynaPuff ;
     --paragraph-font: 'Open Sans', Hevtica, sans-serif;
   
-    /* these colors below should be chosen from among your palette colors above */
-    --headline-color-on-white: #3A3E3B;  /* headlines on a white background */ 
-    --headline-color-on-color: #F0EFF4; /* headlines on a colored background */ 
-    --paragraph-color-on-white: #3A3E3B; /* paragraph text on a white background */ 
-    --paragraph-color-on-color:#F0EFF4; /* paragraph text on a colored background */ 
-    --paragraph-background-color: #3A3E3B  ;
-    --nav-link-color: #3A3E3B;
-    --nav-background-color: #AFBCD4;
-    --nav-hover-link-color: #F0EFF4;
-    --nav-hover-background-color: #3A3E3B;
-  }
+}
 
   /* general selectors */
 * {
@@ -449,11 +439,12 @@ footer img {
     /* FOOTER SECTION */
     footer {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
     }
 
     footer p {
+        margin-top: 2px;
         font-size: 9px;
     }
 
