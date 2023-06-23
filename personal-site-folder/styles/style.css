@@ -457,8 +457,13 @@ footer img {
         font-size: 9px;
     }
 
+    footer a {
+        font-size: 9px;
+        color: #F0EFF4;
+    }
+
     footer img {
-        width: 25px;
+        width: 20px;
     }
 
 
