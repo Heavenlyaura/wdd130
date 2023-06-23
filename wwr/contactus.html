@@ -20,31 +20,32 @@
             <a href="contactus.html">Contact us</a>
         </nav>
     </header>
-  
-<main class="home-grid">
+
+    <div id="feedback"></div>
+
     <form action="/my-handling-form-page" method="post">
-        <ul>
-          <li>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="user_name" />
+      <ul>
+        <li>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name" />
+        </li>
+        <li>
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="user_email" />
+        </li>
+        <li>
+          <label for="msg">Message:</label>
+          <textarea id="msg" name="user_message"></textarea>
+        </li>
+
+        <li class="button">
+            <button type="submit">Send your message</button>
           </li>
-          <li>
-            <label for="mail">Email:</label>
-            <input type="email" id="mail" name="user_email" />
-          </li>
-          <li>
-            <label for="msg">Message:</label>
-            <textarea id="msg" name="user_message"></textarea>
-          </li>
-          <li class="button">
-        <button type="submit">Send your message</button>
-          </li>
-        </ul>
-      </form>
-    <div id="feedback">
-    </div>
-  
-</main> 
+          
+      </ul>
+    </form>
+
+
 
 <footer>
     <p>Dry Oar © 2023 - Your Goodness Okafor</p>
@@ -65,7 +66,6 @@
 
 
 
-
 <script>
     // get the feedback div element so we can do something with it.
     const feedbackElement = document.getElementById('feedback');
@@ -83,7 +83,5 @@
         document.body.classList.toggle('moveDown');
     });
 </script>
-                  
-
 </body>
 </html>
