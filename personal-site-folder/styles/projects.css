@@ -111,10 +111,6 @@ h4 {
     color: var(--accent2-color);
 }
 
-/* .hero-img {
-    width: 100%;
-} */
-
 .img-row {
     background-color: var(--accent2-color);
     margin-bottom: 50px;
@@ -141,6 +137,7 @@ h4 {
 .img2 {
     float: right;
 }
+
 .main-project {
     margin-top: 20px;
     margin: 0 20px;
@@ -234,7 +231,7 @@ footer img {
 }
 
 
-
+/* hover control */
 @media (hover:hover) {
     .project3:hover {
         padding: 20px;
@@ -400,7 +397,7 @@ footer img {
     }
 
     .img-row img {
-        width: 60%;
+        width: 90%;
         float: none;
     }
 
