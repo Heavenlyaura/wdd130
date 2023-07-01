@@ -5,7 +5,7 @@
 :root {
     /* change the values below to your colors from your palette */
     --primary-color: #000000	   ;
-    --secondary-color: #052b7ccd ;
+    --secondary-color: #AFBCD4 ;
     --accent1-color: #3a3e3b;
     --accent2-color: #F0EFF4;
   
@@ -44,6 +44,7 @@ h3 {
     display: grid;
     max-width: 1600px;
     margin: 0 auto;
+    background-color: var(--accent2-color);
     /* background-color:var(--secondary-color); */
 }
 
@@ -56,7 +57,7 @@ h3 {
 }
 
 .logo-div p {
-    color: var(--accent1-color);
+    color: var(--accent2-color);
     font-size: 19px;
 }
 
@@ -69,7 +70,7 @@ header {
     display: flex;
     justify-content: space-between ;
     align-items: center;
-    background-color: var(--accent2-color);
+    background-color: var(--accent1-color);
     border-bottom: 3px solid #3A3E3B;
 }
 
@@ -85,7 +86,7 @@ nav {
 }
 
 nav a {
-    color: var(--accent1-color);
+    color: var(--accent2-color);
     padding: 0 70px;
     text-decoration: none;
     font-size: 19px;
@@ -96,8 +97,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: var(--accent1-color);
-    color: var(--accent2-color);
+    background-color: var(--accent2-color);
+    color: var(--accent1-color);
     padding: 1.6em;
 }
 
@@ -114,7 +115,7 @@ h4 {
 .img-row {
     background-color: var(--accent2-color);
     margin-bottom: 50px;
-    box-shadow: black 5px 5px 15px;
+    /* box-shadow: black 5px 5px 15px; */
 }
 
 .img-row p {
@@ -143,41 +144,13 @@ h4 {
     margin: 0 20px;
 }
 
-.project1 {
-    margin-top: 20px;
-    margin-bottom: 100px;
-    padding: 10px;
-    background-color: #3a3e3b8f;
-    box-shadow: #3A3E3B 5px 5px 15px;
-    transition: .5s;
-    border-radius: 5px;
-}
-
-.project2 {
-    margin-bottom: 100px;
-    /* border: 2px solid black; */
-    padding: 10px;
-    background-color: #3a3e3b8f;
-    box-shadow: #3A3E3B 5px 5px 15px;
-    transition: .5s;
-    border-radius: 5px;
-}
-
-.project3 {
-    margin-bottom: 100px;
-    padding: 10px;
-    background-color: #3a3e3b8f;
-    box-shadow: #3A3E3B 5px 5px 15px;
-    transition: .5s;
-    border-radius: 5px;
-}
-
 .project1 a, .project2 a, .project3 a {
-    padding: 2px;
+    padding: 5px;
     background-color: var(--accent1-color);
     color: var(--accent2-color);
     border-radius: 5px;
     text-decoration: none;
+    box-shadow: black 3px 3px 10px;
 }
 .project1 p, .project2 p, .project3 p {
     color:var(--accent2-color);
@@ -197,12 +170,10 @@ h4 {
 
 }
 
-
-
 .end {
     border: 3px solid #3A3E3B;
     padding: 40px;
-    box-shadow: #3A3E3B 5px 5px 15px;
+    /* box-shadow: #3A3E3B 5px 5px 15px; */
 }
 
 footer {
@@ -230,112 +201,156 @@ footer img {
     margin: 0 5px;
 }
 
+.project1 {
+    margin-bottom: 100px;
+    /* border: 2px solid black; */
+    padding: 10px;
+    background-color: #3a3e3b8f;
+    /* box-shadow: #3A3E3B 5px 5px 15px; */
+    transition: .5s;
+    border-radius: 5px;
+}
 
-/* hover control */
-@media (hover:hover) {
-    .project3:hover {
-        padding: 20px;
-        margin-left: 10px;
-        margin-right: 10px;
-        border-radius: 10px;
-        box-shadow: #3A3E3B 5px 7px 20px;
-        font-weight: bold;
-    }
+.project1 p {
+    color:var(--accent2-color);
+}
 
-    .project2:hover {
-        padding: 20px;
-        margin-left: 10px;
-        margin-right: 10px;
-        border-radius: 10px;
-        box-shadow: #3A3E3B 5px 7px 20px;
-        font-weight: bold;
-    
-    }
-    
-    .project1:hover {
-        padding: 20px;
-        margin-left: 10px;
-        margin-right: 10px;
-        border-radius: 10px;
-        box-shadow: #3A3E3B 5px 7px 20px;
-        font-weight: bold;
-    
-    }
-}   
 
-@media (hover: none) {
-    .project1 {
-        margin-bottom: 100px;
-        /* border: 2px solid black; */
-        padding: 10px;
-        background-color: #3a3e3b8f;
-        box-shadow: #3A3E3B 5px 5px 15px;
-        transition: .5s;
-        border-radius: 5px;
-    }
-    
-    .project1 p {
-        color:var(--accent2-color);
-    }
-    
-    
-    .project1 img {
-        margin-top: -50px;
-        float: right;
-        width: 250px;
-        border:5px solid #3A3E3B;
-        background-color:white ;
-    }
-    
-    .project2 {
-        margin-bottom: 100px;
-        /* border: 2px solid black; */
-        padding: 10px;
-        background-color: #3a3e3b8f;
-        box-shadow: #3A3E3B 5px 5px 15px;
-        transition: .5s;
-        border-radius: 5px;
-    }
-    
-    
-    .project2 img {
-        background-color: #fff;
-        margin: 10px;
-        float: right;
-        width: 250px;
-        border:5px solid #3A3E3B;
-    }
-    
-    .project2 p {
-        color:var(--accent2-color);
-    }
-    
-    .project3 {
-        margin-bottom: 100px;
-        padding: 10px;
-        background-color: #3a3e3b8f;
-        box-shadow: #3A3E3B 5px 5px 15px;
-        transition: .5s;
-        border-radius: 5px;
-    }
+.project1 img {
+    margin-top: -50px;
+    float: right;
+    width: 250px;
+    border:5px solid #3A3E3B;
+    background-color:white ;
+}
 
-    .project3 img {
-        width: 250px ;
-        border:5px solid #3A3E3B;
-        float: right;
-        margin: 10px;
-        background-color: var(--accent2-color);
-    }
-    
-    .project3 p {
-        color:var(--accent2-color);
-    }
-    
+.project2 {
+    margin-bottom: 100px;
+    /* border: 2px solid black; */
+    padding: 10px;
+    background-color: #3a3e3b8f;
+    /* box-shadow: #3A3E3B 5px 5px 15px; */
+    transition: .5s;
+    border-radius: 5px;
+}
+
+
+.project2 img {
+    background-color: #fff;
+    margin: 10px;
+    float: right;
+    width: 250px;
+    border:5px solid #3A3E3B;
+}
+
+.project2 p {
+    color:var(--accent2-color);
+}
+
+.project3 {
+    margin-bottom: 100px;
+    padding: 10px;
+    background-color: #3a3e3b8f;
+    /* box-shadow: #3A3E3B 5px 5px 15px; */
+    transition: .5s;
+    border-radius: 5px;
+}
+
+.project3 img {
+    width: 250px ;
+    border:5px solid #3A3E3B;
+    float: right;
+    margin: 10px;
+    background-color: var(--accent2-color);
+}
+
+.project3 p {
+    color:var(--accent2-color);
 }
 
 
 
-@media screen and (max-width: 900px) {
+/* form styling  */
+
+form {
+    /* Center the form on the page */
+    margin: 50px auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+  }
+  
+.contact-img {
+    float: left;
+    margin-right: 20px;
+} 
+
+.msg {
+    margin-top: 20px;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
     header {
         display: grid;
         grid-template-columns: 120px 1fr;
@@ -394,6 +409,7 @@ footer img {
     .img-row {
         text-align: center;
         background-color: var(--accent1-color);
+        padding-bottom: 20px;
     }
 
     .img-row img {
@@ -448,6 +464,19 @@ footer img {
         width: 20px;
     }
 
+    .msg {
+       text-align: center;
+    }
+
+    .contact-img {
+        width: 100%;
+    }
+
+    .msg img {
+       float: none;
+       width: 90%;
+       margin-bottom: 20px;
+    }
 
 }
 
