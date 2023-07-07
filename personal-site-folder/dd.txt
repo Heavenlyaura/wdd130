@@ -1,0 +1,4 @@
+You are using float incorrectly. You must clear the float. This layout is better suited for grid. You are not using valid HTML5 syntax, The <div class="project"> sections must be <section class="project:> I posted a graphic to help you choose the tags correctly. Go back to the welcome to Week 10 announcement for the chart. You must use 1 CSS file for all your pages. There is already an inconsistency because you did not do that. The heading font is not working. You must remove the underline from the links. Footer still has them Text is not allowed to touch the edges. The footer is and the other elements has text very close to the edge. Add more spacing.
+Ralph Borcherds, Jul 6 at 9:57am
+Okay sir!
+Goodness Arinzechukwu Okafor, Jul 7 at 12:02am
