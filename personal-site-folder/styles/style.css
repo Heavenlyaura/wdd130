@@ -384,6 +384,98 @@ footer img {
     /* box-shadow: #3A3E3B 5px 5px 15px; */
 }
 
+.msg-contact {
+    margin-left: 10px;
+    margin-left: 10px;
+}
+
+/* form styling  */
+
+form {
+    /* Center the form on the page */
+    margin: 50px auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 30px;
+    text-align: start;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+    text-align: center;
+    margin-right: 100px;
+  
+    /* Uniform text field size */
+    width: 300px;
+    height: 40px;
+    box-sizing: border-box;
+    /* Match form field borders */
+    border: 1px solid #999;
+    border-radius: 5px;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    /* margin-right: 50px; */
+    padding: 10px;
+    font-size: 1.2em;
+  }
+  
+.contact-img {
+    float: left;
+    margin-right: 20px;
+} 
+
+.msg {
+    margin-top: 20px;
+}
+
+
+
+
 /* media querie */
 
 @media screen and (max-width: 1200px) {
