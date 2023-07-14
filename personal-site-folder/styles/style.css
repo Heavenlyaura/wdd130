@@ -707,18 +707,30 @@ form {
         margin-bottom: 10px;
     }
     .contact-img {
-        width: 100%;
+        /* width: 100%; */
         text-align: center;
-        padding-right: 10px;
+        /* padding-right: 10px; */
     }
 
     .msg-contact img {
+        width: 80%;
+        padding-right: 30px;
+        float: none;
+        margin: 0;
+        padding: 0;
+    }
+    .msg-contact{
+        margin:0 20px;
+    }
+
+
+    .form {
         width: 100%;
+        text-align: start; 
     }
 
-    .msg-contact {
-        text-align: center;
+    form, input, textarea {
+        width: 85%;
     }
-
 
 }
