@@ -473,6 +473,22 @@ form {
     margin-top: 20px;
 }
 
+.nav-contact a, .header-contact p {
+    color: var(--accent1-color);
+}
+
+.nav-contact a:hover {
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+}
+
+.header-contact {
+    border-bottom: #3A3E3B 2px solid;
+}
+.logo-div  img{
+    border: 2px solid var(--accent1-color);
+}
+
 
 
 
@@ -732,5 +748,6 @@ form {
     form, input, textarea {
         width: 85%;
     }
+
 
 }
