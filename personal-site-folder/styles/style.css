@@ -474,6 +474,10 @@ form {
     margin-top: 20px;
 }
 
+.msg {
+    margin-top: 20px;
+}
+
 .nav-contact a, .header-contact p {
     color: var(--accent1-color);
 }
